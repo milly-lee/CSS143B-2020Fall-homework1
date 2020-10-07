@@ -5,7 +5,7 @@ public class Problem1 {
         // Add your solution
         int firstnum = 0;
         int lastnum  = data.length - 1;
-        while(firstnum < lastnum) {
+        while(firstnum <= lastnum) {
             int midnum = (lastnum + firstnum) / 2;
             if(data[midnum] == target)
                 return midnum;
