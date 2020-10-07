@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Problem2 {
 
     // Do not change signature (function name, parameters)
@@ -11,5 +13,11 @@ public class Problem2 {
             }
 
         }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = new int[]{6, 9, 2, 3, 4, 5, 7, 8};
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
