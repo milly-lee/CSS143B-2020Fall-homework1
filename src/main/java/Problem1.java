@@ -14,6 +14,8 @@ public class Problem1 {
             if(midnum < target)
                 firstnum = midnum +1; //move the range to the right
         }
+    }
+
         return -1; // Place holder
     }
 }
